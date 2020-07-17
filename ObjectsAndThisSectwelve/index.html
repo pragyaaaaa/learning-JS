@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>Objects</title>
+    <script>
+        $(document).ready(function () {
+            var iFrameDOM = $("iframe").contents();
+            iFrameDOM.find(".main").css("color", "#333");
+        });
+    </script>
 </head>
+
 <body>
-    <h1>12: Objects Methods and 'this' keyword.</h1>
-    <ol type="1">
-        <li>1. Shorthand Properties</li>
-    <script src="methodsAndThis.js"></script>
+
+    <div class="back-ground">
+        <div class="heading-center">
+            <h1>12: Objects Methods and 'this' keyword.</h1>
+        </div>
+        <div class="center">
+            1. Shorthand Properties <a href="#" onclick="$('iframe').hide();$('iframe#a').show();">
+                <button class="button" style="vertical-align:middle"><span>Show Code</span></button></a><br /><br />
+                <iframe id="a" class="iframe-class" src="ShorthandProperties.js"></iframe>
+                
+            2. Compute Properties <a href="#" onclick="$('iframe').hide();$('iframe#b').show();">
+                <button class="button" style="vertical-align:middle"><span>Show Code</span></button></a><br /><br />
+                <iframe id="b" class="iframe-class" src="ComputedProperties.js"></iframe>
+        </div>
+    </div>
 </body>
+
 </html>
