@@ -16,6 +16,7 @@ h1 {
   width: 70%;
   height: 10%;
   opacity: 0.8;
+  font-weight: bolder;
   background-color: rgb(179, 255, 179);
   border: 5px solid #070707;
   padding: 10px;
