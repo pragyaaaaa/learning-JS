@@ -4,7 +4,7 @@ function destructuringArrays() {
         'Range',
         'mindset'
     ];
-    //withour destructuring
+    //without destructuring
     const TFIOS = books[0];
     const range = books[1];
     const mind = books[2];
