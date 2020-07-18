@@ -4,7 +4,8 @@ function thisObj() {
         title: 'Deep Work',
         author: 'Cal Newport',
         detail() {
-            console.log(this);
+            console.log(this.title);
+            console.log(this.author);
         }
     }
     book.detail();
