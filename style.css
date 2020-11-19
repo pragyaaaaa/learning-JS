@@ -2,10 +2,13 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-repeat: repeat-y;
-  background-image: url(../original.gif);
+  background-color: #dceffe !important;
+  /*  background-repeat: repeat-y;
+  background-image: url(../original.gif); */
 }
-
+.container-class {
+  height: 100% !important;
+}
 h1 {
   text-align: center;
 }
@@ -19,27 +22,27 @@ p {
 }
 .heading-center {
   margin: auto;
-  margin-bottom: 10px;
-  color: rgb(0, 102, 0);
-  width: 70%;
-  height: 10%;
+  /*  margin-bottom: 100px; */
+  color: rgb(0, 15, 102);
+  /* width: 70%;
+  height: 10%; */
   opacity: 0.8;
   font-weight: bolder;
-  background-color: rgb(179, 255, 179);
+  /* background-color: rgb(179, 255, 179);
   font-family: "Lucida Console", Courier, monospace;
   border: 4px solid rgb(0, 77, 0);
-  padding: 10px;
+  padding: 10px; */
   /* font-family:"Euclid Fraktur", "Old English Text MT", fantasy, serif; */
 }
 
 .center {
   margin: auto;
   align-content: center;
-  width: 65%;
-  color: rgb(0, 102, 0);
+  /*width: 65%;
+  /* color: rgb(0, 102, 0);
   background-color: rgb(179, 255, 179);
   border: 5px solid #070707;
-  padding: 10px;
+  padding: 10px; */
   overflow: hidden;
   font-weight: bolder;
   font-family: "Lucida Console", Courier, monospace;
@@ -55,7 +58,7 @@ p {
   overflow: hidden;
   align-content: center;
   text-align: center;
-  background-color: rgb(230, 255, 238);
+  background-color: #dceffe;
   display: none;
 }
 .button {
@@ -64,8 +67,8 @@ p {
   position: absolute;
   right: 20%;
   border-radius: 5px;
-  /* background-color: rgb(230, 255, 238); */
-  background-image: url(../original.gif);
+  /* background-color: rgb(230, 255, 238);
+  background-image: url(../original.gif);*/
   border: none;
   text-align: center;
   font-family: "Lucida Console", Courier, monospace;
@@ -73,7 +76,7 @@ p {
   font-weight: bolder;
   padding: 1px;
   width: 150px;
-  height: 40px;
+  height: 35px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
